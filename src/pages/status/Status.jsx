@@ -1,7 +1,17 @@
 import React from "react";
 import "./status.css";
+import { useLocation } from "react-router-dom";
+import axios from "axios";
 
 const Status = () => {
+  const location = useLocation();
+  const baseUrl = "http://172.20.10.2:8080/";
+
+  const receivedData = location.state;
+
+  // try {
+  //   const response = await axios.get(`${baseUrl}/status`)
+  // }
   return (
     <div className="status">
       <div className="status__header">
