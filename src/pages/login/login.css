@@ -12,16 +12,17 @@ form {
 .login__header {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .login__header h1 {
   text-align: center;
+  font-size: 30px;
+  font-weight: 600;
   color: #3399ff;
 }
 
 .login__main {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
 }
@@ -42,6 +43,7 @@ input {
   border: none;
   background: #d3d9df;
   height: 35px;
+  cursor: pointer;
 }
 
 select {
@@ -50,6 +52,7 @@ select {
   padding: 5px;
   background: #d3d9df;
   height: 35px;
+  cursor: pointer;
 }
 
 .login__footer {
@@ -67,4 +70,5 @@ select {
   font-weight: 600;
   height: 35px;
   font-size: 15px;
+  cursor: pointer;
 }
