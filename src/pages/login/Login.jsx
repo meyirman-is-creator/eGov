@@ -9,26 +9,23 @@ const Login = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="login__header">
-        <h1>Queue Registration</h1>
+        <h1>Очередь в ЦОН</h1>
       </div>
       <div className="login__main">
-        <input type="text" id="ssn" required placeholder="SSN" />
+        <input type="text" id="ssn" required placeholder="ИИН" />
         <br />
-        <br />
-        <label htmlFor="services">Select your service:</label>
-        <br />
+        <label htmlFor="services">Выберите сервис:</label>
         <select id="services" required>
-          <option value="">Choose</option>
+          <option value="">Сервис</option>
           <option value="Услуга 1">Service 1</option>
           <option value="Услуга 2">Service 2</option>
           <option value="Услуга 3">Service 3</option>
         </select>
         <br />
-        <br />
       </div>
 
       <div className="login__footer">
-        <button type="submit">Get your place</button>
+        <button type="submit">Получить свое место</button>
       </div>
     </form>
   );
