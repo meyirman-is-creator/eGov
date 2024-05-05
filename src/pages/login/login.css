@@ -1,0 +1,32 @@
+form {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 30px;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.login__header {
+  display: flex;
+  justify-content: center;
+}
+
+.login__main {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.login__main label {
+  display: flex;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px 0;
+  width: 300px;
+}
